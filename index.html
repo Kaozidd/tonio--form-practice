@@ -5,51 +5,71 @@
 	<link rel="stylesheet" type="text/css" href="./css/stsh.css">
 </head>
 <body>
-	<h1> Hi</h1>
-	<p> The next is a form, you can use that.<p>
-	<div>
-		<form action="form/submit.php" method="post" target="_self">
-			<fieldset>
-				<legend>Required</legend>
+	<div class="container">
+		<h1> Hi</h1>
+		<p> The next is a form, you can use that.<p>
+		<div>
+			<form action="form/submit.php" method="post" target="_self">
+				<fieldset class="fixed">
+					<legend>Required</legend>
+					<label>
+						Name<br><input type="text" required tabindex="1" name="name" placeholder="Name">
+					</label> <br>
+					<label>
+						Date <br><input type="date" name="birthday" tabindex="2" placeholder="dd/mm/yyyy">
+					</label>
+				</fieldset><br>
+				<br>
 				<label>
-					Name<br><input type="text" required tabindex="1" name="name" value="Maria Juana">
+					Now, talk about you
 				</label> <br>
+				<br>
 				<label>
-					Date <br><input type="date" name="birthday" tabindex="2" value="dd/mm/yyyy">
+					Select one <select>
+						<option value="Run">
+							Run
+						</option>
+						<option value="swim">
+							Swim
+						</option>
+						<option value="Futball">
+							Futball
+						</option>
+					</select>
+				</label><br>
+				<br>
+				<label>
+					<textarea class="inpuuut" name="likes" rows="5" cols="80">Tell me about you, what like to you?</textarea>
+				</label> <br>
+				<br>
+				<label>
+					<input type="submit" value="send">
 				</label>
-			</fieldset><br>
-			<br>
-			<label>
-				Now, talk about you
-			</label> <br>
-			<br>
-			<label>
-				Select one <select>
-					<option value="Run">
-						Run
-					</option>
-					<option value="swim">
-						Swim
-					</option>
-					<option value="Futball">
-						Futball
-					</option>
-				</select>
-			</label><br>
-			<br>
-			<label>
-				<textarea name="likes" rows="5" cols="80">Tell me about you, what like to you?</textarea>
-			</label> <br>
-			<br>
-			<label>
-				<input type="submit" value="send">
-			</label>
-		</form> <br>
-		<form action="form/fuckyou.php" method="post">
-			<label>
-				<button type="submit" value="kill me">Kill me</button>
-			</label>
-		</form>
+			</form> <br>
+			<form action="form/fuckyou.php" method="post">
+				<label>
+					<button type="submit" value="kill me">Kill me</button>
+				</label>
+			</form>
+		</div>
 	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 </body>
 </html>

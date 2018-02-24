@@ -1,0 +1,23 @@
+.container {
+	width: 30%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.inpuuut {
+	width: 90%;
+	align-self: center;
+}
+.fixed{
+	width: 50%;
+}
